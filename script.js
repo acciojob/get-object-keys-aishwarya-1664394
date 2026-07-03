@@ -2,5 +2,7 @@
 const student={
 	name: "Aishwarya",
 }
-console
-console.log(Object.keys(student));
+console.log(getKeys(student));
+funstion getKeys(student){
+	return Object.keys(student);
+}
